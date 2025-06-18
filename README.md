@@ -23,7 +23,7 @@ O projeto é uma aplicação web desenvolvida para análise de dados sobre saúd
 
 ## 📱 Deploy
 
-A aplicação está disponível em: [https://pi3-analise-de-dados.vercel.app](https://pi3-analise-de-dados.vercel.app)
+A aplicação está disponível em: [https://pi3-mental-health-app.vercel.app/ml-analysis](https://pi3-mental-health-app.vercel.app/ml-analysis)
 
 ## 👥 Autores
 
