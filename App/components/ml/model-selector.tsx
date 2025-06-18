@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { TrendingUp, PieChart, Network, LineChart, AlertTriangle } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Icon from '../ui/icon'
 
 export type ModelType = "timeSeries" | "clustering" | "correlation" | "regression" | "anomaly"
 
@@ -44,23 +45,23 @@ export function ModelSelector({ onModelSelect }: ModelSelectorProps) {
         >
           <TabsList className="grid grid-cols-5 mb-4">
             <TabsTrigger value="timeSeries" className="flex items-center gap-2">
-              <TrendingUp className="h-4 w-4" />
+              <Icon icon={TrendingUp} className="h-4 w-4" />
               <span className="hidden sm:inline">Previsão</span>
             </TabsTrigger>
             <TabsTrigger value="clustering" className="flex items-center gap-2">
-              <PieChart className="h-4 w-4" />
+              <Icon icon={PieChart} className="h-4 w-4" />
               <span className="hidden sm:inline">Agrupamento</span>
             </TabsTrigger>
             <TabsTrigger value="correlation" className="flex items-center gap-2">
-              <Network className="h-4 w-4" />
+              <Icon icon={Network} className="h-4 w-4" />
               <span className="hidden sm:inline">Correlação</span>
             </TabsTrigger>
             <TabsTrigger value="regression" className="flex items-center gap-2">
-              <LineChart className="h-4 w-4" />
+              <Icon icon={LineChart} className="h-4 w-4" />
               <span className="hidden sm:inline">Fatores</span>
             </TabsTrigger>
             <TabsTrigger value="anomaly" className="flex items-center gap-2">
-              <AlertTriangle className="h-4 w-4" />
+              <Icon icon={AlertTriangle} className="h-4 w-4" />
               <span className="hidden sm:inline">Anomalias</span>
             </TabsTrigger>
           </TabsList>
