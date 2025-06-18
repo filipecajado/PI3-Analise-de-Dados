@@ -34,6 +34,14 @@ A aplicação está disponível em: [https://pi3-mental-health-app.vercel.app/ml
 - PEDRO HENRIQUE DE FREITAS TESSNIARI
 - VITOR DORNELA MASCARENHAS
 
+## 📊 Fonte de Dados
+
+Os dados utilizados neste projeto foram obtidos do dataset "Mental Health" disponível no Kaggle:
+
+[https://www.kaggle.com/datasets/imtkaggleteam/mental-health/](https://www.kaggle.com/datasets/imtkaggleteam/mental-health/)
+
+Este dataset contém informações sobre prevalência de transtornos mentais em diferentes países, incluindo dados sobre depressão, ansiedade e outros indicadores de saúde mental.
+
 ## 🚀 Tecnologias Utilizadas
 
 - **Frontend:**
