@@ -96,7 +96,7 @@ A aplicação utiliza cinco modelos principais de Machine Learning:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/pi3-analise-de-dados.git
+git clone https://github.com/filipecajado/PI3-Analise-de-Dados.git
 cd pi3-analise-de-dados
 ```
 
